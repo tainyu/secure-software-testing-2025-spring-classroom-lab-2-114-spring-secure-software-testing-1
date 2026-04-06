@@ -12,3 +12,6 @@ See [README.md](Lab1/README.md)
 
 ## Lab 2
 See Lab2/main_test.js
+
+## Update
+This repository was updated as part of Week 7 progress refinement.
