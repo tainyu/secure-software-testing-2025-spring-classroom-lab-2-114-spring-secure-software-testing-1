@@ -1,1 +1,85 @@
+# Homework 2-bonus: Sudoku TDD
+
+## Objective
+
+This project demonstrates Test-Driven Development (TDD) using a Sudoku validation application in Python.
+
+The implementation includes:
+
+- Number validation
+- Row validation
+- Column validation
+- 3x3 block validation
+
+The project was developed following the TDD cycle:
+
+1. Red phase (write failing tests)
+2. Green phase (implement code to pass tests)
+3. Refactor phase
+
+---
+
+## Environment
+
+- Python 3.14
+- pytest 9.0.3
+- VS Code
+
+---
+
+## Test Cases
+
+### Number Validation
+
+- Valid number
+- Invalid number
+- Zero validation
+
+### Row Validation
+
+- Valid row
+- Invalid row
+
+### Column Validation
+
+- Valid column
+- Invalid column
+
+### Block Validation
+
+- Valid 3x3 block
+- Invalid 3x3 block
+
+---
+
+## Test Result
+
+All tests passed successfully.
+
+```bash
+9 passed
+```
+
+---
+
+## Files
+
+- `sudoku.py`
+- `test_sudoku.py`
+
+---
+
+## TDD Workflow
+
+### Red Phase
+
+Tests fail because functions are not implemented.
+
+### Green Phase
+
+Functions are implemented and tests pass.
+
+### Refactor Phase
+
+Code structure and validation logic are improved.
 
