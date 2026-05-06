@@ -2,70 +2,40 @@
 
 ## Objective
 
-This project demonstrates Test-Driven Development (TDD) using a Sudoku validation application in Python.
+This project demonstrates Test-Driven Development (TDD) using a Sudoku application written in Python.
 
-The implementation includes:
+The implementation follows the Red-Green-Refactor workflow and includes Sudoku validation, puzzle solving, and puzzle generation.
+
+---
+
+## Development Environment
+
+- Python 3.14
+- pytest 9.0.3
+- Visual Studio Code
+- GitHub
+
+---
+
+## Implemented Features
+
+### Rules Engine
 
 - Number validation
 - Row validation
 - Column validation
 - 3x3 block validation
+- Move validation using `is_valid()`
 
-The project was developed following the TDD cycle:
+### Sudoku Solver
 
-1. Red phase (write failing tests)
-2. Green phase (implement code to pass tests)
-3. Refactor phase
+- Backtracking algorithm
+- Automatic puzzle solving
 
----
+### Puzzle Generator
 
-## Environment
-
-- Python 3.14
-- pytest 9.0.3
-- VS Code
-
----
-
-## Test Cases
-
-### Number Validation
-
-- Valid number
-- Invalid number
-- Zero validation
-
-### Row Validation
-
-- Valid row
-- Invalid row
-
-### Column Validation
-
-- Valid column
-- Invalid column
-
-### Block Validation
-
-- Valid 3x3 block
-- Invalid 3x3 block
-
----
-
-## Test Result
-
-All tests passed successfully.
-
-```bash
-9 passed
-```
-
----
-
-## Files
-
-- `sudoku.py`
-- `test_sudoku.py`
+- Generate Sudoku puzzles
+- Adjustable difficulty
 
 ---
 
@@ -73,13 +43,50 @@ All tests passed successfully.
 
 ### Red Phase
 
-Tests fail because functions are not implemented.
+Write failing test cases before implementation.
 
 ### Green Phase
 
-Functions are implemented and tests pass.
+Implement functions until all tests pass.
 
 ### Refactor Phase
 
-Code structure and validation logic are improved.
+Improve code structure while maintaining passing tests.
 
+---
+
+## Test Cases
+
+- Valid number test
+- Invalid number test
+- Zero validation test
+- Valid row test
+- Invalid row test
+- Valid column test
+- Invalid column test
+- Valid block test
+- Invalid block test
+- Sudoku move validation test
+- Sudoku solving test
+- Puzzle generation test
+
+---
+
+## Final Test Result
+
+```bash
+12 passed
+```
+
+---
+
+## Project Files
+
+- `sudoku.py`
+- `test_sudoku.py`
+
+---
+
+## Conclusion
+
+This project successfully demonstrates the practical implementation of Test-Driven Development using a Sudoku engine in Python.
