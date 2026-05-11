@@ -1,1 +1,29 @@
 
+# Lab4 - Puppeteer
+
+## Student Information
+
+- Name: 李明燦
+- Student ID: 513558004
+
+## Description
+
+This lab uses Puppeteer to automate browser actions.
+
+## Requirements
+
+1. Go to https://pptr.dev/
+2. Type "what the dog doing"
+3. Click the first result in Coverage section
+4. Print the page title
+
+## Environment
+
+- Node.js v24.15.0
+- Puppeteer v24.23.0
+
+## Run
+
+```bash
+npm install
+node lab4.js
