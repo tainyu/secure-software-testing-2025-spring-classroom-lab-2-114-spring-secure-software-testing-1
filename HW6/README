@@ -1,1 +1,14 @@
+# Homework 6 - Logic Coverage of Thermostat
 
+This homework demonstrates:
+
+- Predicate Coverage (PC)
+- Clause Coverage (CC)
+- Correlated Active Clause Coverage (CACC)
+
+Files included:
+
+- Thermostat.js
+- ProgrammedSettings.js
+- thermostat_test.js
+- 513558004_李明燦_HW6.pdf
