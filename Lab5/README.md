@@ -3,7 +3,7 @@ Student ID: 513558004
 Name: 李明燦
 Course: Secure Software Testing
 GitHub Repository
-https://github.com/secure-software-testing-2025-spring/secure-software-testing-2025-spring-classroom-lab-5-114-spring-secure-software-testing-1
+https://github.com/tainyu/secure-software-testing-2025-spring-classroom-lab-2-114-spring-secure-software-testing-1
 1. Assignment Objective
 The objective of this lab is to use symbolic execution with the angr framework to analyze a crackme binary and automatically recover the hidden FLAG.
 
