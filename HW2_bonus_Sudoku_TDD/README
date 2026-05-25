@@ -1,0 +1,92 @@
+# Homework 2-bonus: Sudoku TDD
+
+## Objective
+
+This project demonstrates Test-Driven Development (TDD) using a Sudoku application written in Python.
+
+The implementation follows the Red-Green-Refactor workflow and includes Sudoku validation, puzzle solving, and puzzle generation.
+
+---
+
+## Development Environment
+
+- Python 3.14
+- pytest 9.0.3
+- Visual Studio Code
+- GitHub
+
+---
+
+## Implemented Features
+
+### Rules Engine
+
+- Number validation
+- Row validation
+- Column validation
+- 3x3 block validation
+- Move validation using `is_valid()`
+
+### Sudoku Solver
+
+- Backtracking algorithm
+- Automatic puzzle solving
+
+### Puzzle Generator
+
+- Generate Sudoku puzzles
+- Adjustable difficulty
+
+---
+
+## TDD Workflow
+
+### Red Phase
+
+Write failing test cases before implementation.
+
+### Green Phase
+
+Implement functions until all tests pass.
+
+### Refactor Phase
+
+Improve code structure while maintaining passing tests.
+
+---
+
+## Test Cases
+
+- Valid number test
+- Invalid number test
+- Zero validation test
+- Valid row test
+- Invalid row test
+- Valid column test
+- Invalid column test
+- Valid block test
+- Invalid block test
+- Sudoku move validation test
+- Sudoku solving test
+- Puzzle generation test
+
+---
+
+## Final Test Result
+
+```bash
+12 passed
+```
+
+---
+
+## Project Files
+
+- `sudoku.py`
+- `test_sudoku.py`
+
+---
+
+## Conclusion
+
+This project successfully demonstrates the practical implementation of Test-Driven Development using a Sudoku engine in Python.
